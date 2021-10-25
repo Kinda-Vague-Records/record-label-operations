@@ -1,0 +1,225 @@
+body {
+    background-color: #151515;
+    color: #FAFAFA;
+}
+.subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: -2em;
+    color: #fdfafa;
+}
+.heading {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+.paragraph {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.badges .column img {
+    width: 100%;
+}
+.badge.column,
+.badge.columns {
+    padding: 2% 0;
+}
+.badge.column {
+    width: 48%;
+}
+.badge.column:nth-child(odd) {
+    clear: left;
+}
+.badge.column:nth-child(even) {
+    margin-left: 4%;
+}
+.footer {
+    margin-top: 4em;
+}
+.footer span {
+    font-size: .8em;
+}
+#cover {
+    width: 100%;
+}
+#title {
+    padding-top: 2em;
+    background: url('/images/pinetree-janitorial-service.png') no-repeat center;
+    background-size: contain;
+}
+#title span {
+    visibility: collapse;
+}
+#pics {
+    display: none;
+}
+#music-video {
+    width: 100%;
+    min-height: 250px;
+}
+#spotify-embed {
+    margin-top: -5px;
+}
+#deezer img {
+    margin-top: 5%;
+}
+#social {
+    float: right;
+    margin-top: -.2em;
+}
+#social li {
+    list-style-type: none;
+    float: left;
+    margin-left: .5em;
+}
+#social img {
+    width: 20px;
+    height: 20px;
+}
+@media (min-width: 400px) {
+    .subtitle {
+        font-size: 1.5em;
+        margin-top: -1em;
+    }
+    .heading {
+        font-size: 1.5em;
+    }
+    #music-video {
+        width: 100%;
+        min-height: 400px;
+    }
+    #social {
+        margin-top: -.3em;
+    }
+    #social img {
+        width: 24px;
+        height: 24px;
+    }
+    .footer span {
+        font-size: 1em;
+    }
+}
+@media (min-width: 550px) {
+    .subtitle {
+        font-size: 1.5em;
+        margin-top: -1em;
+    }
+    .heading {
+        font-size: 1.5em;
+    }
+    .badge.column {
+        width: 30.6666666667%;
+    }
+    .badge.column:nth-child(odd) {
+        clear: none;
+    }
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+    .badge.column,
+    .badge.columns {
+        margin-left: 4%;
+    }
+    .badge.column:first-child,
+    .badge.columns:first-child,
+    .badge.column:nth-child(4) {
+        margin-left: 0;
+    }
+    .badge.column:nth-child(7) {
+        clear: left;
+        margin-left: 0;
+    }
+    #itunes img, #apple-music img {
+        margin-top: 5%;
+    }
+    #amazon img {
+        margin-top: -5%;
+    }
+    #tidal img {
+        margin-top: 0;
+    }
+    #deezer img {
+        margin-top: 0;
+    }
+    #iheart-radio img {
+        margin-top: -6%;
+    }
+}
+@media (min-width: 800px) {
+    .subtitle {
+        font-size: 2em;
+        margin-top: 0;
+    }
+    .heading {
+        font-size: 2em;
+    }
+    .badge.column {
+        width: 22%;
+    }
+    .badge.column:nth-child(odd) {
+        clear: none;
+    }
+    .badge.column,
+    .badge.columns {
+        margin-left: 4%;
+        padding: 0;
+    }
+    .badge.column:first-child,
+    .badge.columns:first-child {
+        margin-left: 0;
+    }
+    .badge.column:nth-child(4) {
+        margin-left: 4%;
+    }
+    .badge.column:nth-child(5) {
+        clear: left;
+        margin-left: 0;
+    }
+    .badge.column:nth-child(7) {
+        clear: none;
+        margin-left: 4%;
+    }
+    #music-video {
+        width: 100%;
+        min-height: 500px;
+    }
+    #itunes img, #apple-music img {
+        margin-top: 5%;
+    }
+    #amazon img, #tidal img {
+        margin-top: 10%;
+    }
+    #deezer img {
+        margin-top: 27%;
+    }
+    #iheart-radio img {
+        margin-top: 20%;
+    }
+    #spotify-embed {
+        margin-top: 0;
+    }
+}
+@media (min-width: 1015px) {
+    #pics {
+        display: block;
+        width: 100%;
+        margin-top: 2%;
+    }
+    #pics img {
+        width: 22.5%;
+        margin-left: 2.3333333333%;
+    }
+    #pics img:first-child {
+        margin-left: 0;
+    }
+}
+@media (min-width: 1085px) {
+    #pics {
+        margin-top: 5%;
+    }
+    #pics img {
+        width: 22.66666666667%;
+        margin-left: 2.3333333333%;
+    }
+}
